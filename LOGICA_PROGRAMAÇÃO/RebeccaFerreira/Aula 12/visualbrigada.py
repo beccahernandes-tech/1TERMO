@@ -10,7 +10,7 @@ janela.configure(bg="#0e0e0f")
 def funcionarios():
     setor2 = entry_setor.get().lower()
 
-    if setor2 == "eletrica":
+    if setor2 == "elétrica":
         messagebox.showwarning(
             "EPI - Elétrica",
             "Use:\n"
@@ -19,7 +19,7 @@ def funcionarios():
             "- Óculos de proteção"
         )
 
-    elif setor2 == "mecanica":
+    elif setor2 == "mecânica":
         messagebox.showwarning(
             "EPI - Mecânica",
             "Use:\n"
@@ -51,5 +51,6 @@ btn_verificar = tk.Button(janela, text="Verificar EPI", command=funcionarios, bg
 btn_verificar.pack(pady=15) 
 
 
-
+print("pinto de negão")
 janela.mainloop()
+

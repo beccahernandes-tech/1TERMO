@@ -28,7 +28,7 @@
 #     print(conteudo)
 
 #Execução de comandos do sistemas 
-import os # importa o módulo os para interagir com o sistema operacional
+# import os # importa o módulo os para interagir com o sistema operacional
 
 # #Onde estou?
 # print(os.getcwd())
@@ -109,19 +109,19 @@ import os # importa o módulo os para interagir com o sistema operacional
 
 #Exercicio 2 
 # Escreva um script que liste os arquivos d euma psta e exclua os arquivos com extensão ".tmp" , O script deve exibir uma mensagem para cada arquivo excluido
-pasta= os.listdir()
-for arquivo in pasta:
-     if arquivo.endswith(".tmp"):
-          os.remove(arquivo) #remove irá apagar o arquivo 
-          print(f"Arquivo {arquivo} excluido")
-print("Limpeza de arquivos concluida")
+# pasta= os.listdir()
+# for arquivo in pasta:
+#      if arquivo.endswith(".tmp"):
+#           os.remove(arquivo) #remove irá apagar o arquivo 
+#           print(f"Arquivo {arquivo} excluido")
+# print("Limpeza de arquivos concluida")
 
-#8) Criar um script de monitoramento de temperatura 
-# Escreva um script que monitore a temperatura de um motor. O script deve ler a temperatura de um arquivo "temperatura.txt" e exibir uma mensagem de alerta se a temperatura estiver acima de 70°
-pasta= os.listdir()
-with open("temperatura.txt" , "r") as arquivo:
-      temperatura= float(f .read() .string())
-      print(f"temperatura: {temperatura} C°)
-  if temperatura > 70: 
+# #8) Criar um script de monitoramento de temperatura 
+# # Escreva um script que monitore a temperatura de um motor. O script deve ler a temperatura de um arquivo "temperatura.txt" e exibir uma mensagem de alerta se a temperatura estiver acima de 70°
+# pasta= os.listdir()
+# with open("temperatura.txt" , "r") as arquivo:
+#       temperatura= float(f .read() .string())
+#       print(f"temperatura: {temperatura} C°)
+#   if temperatura > 70: 
         
 
